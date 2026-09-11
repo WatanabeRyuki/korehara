@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#section1,
+#section2,
+#section3,
+#section4,
+#section5,
+#section6,
+#section7,
+#section8 {
+  scroll-margin-top: var(--scroll-margin-top);
+}
+
+@media (min-width: 768px) {
+  :root {
+    --section-padding-y: 96px;
+    --section-padding-x: 24px;
+  }
+}
