@@ -239,12 +239,17 @@
       ".section3__ba-arrow{margin:24px 0 0;transform:none;}" +
     "}" +
     "@media (min-width:1080px){" +
-      ".section3__ba{max-width:800px;}" +
-      ".section3__ba-card{" +
-      "gap:80px;" +
-      "max-width:720px;" +
-      "padding:24px 88px 20px;" +
-    "}" ;
+      ".section3__ba{" +
+        "max-width:1000px;" +
+      "}" +
+      ".section3__ba-row--before{" +
+        "justify-content:flex-start;" +
+      "}" +
+      ".section3__ba-row--after{" +
+        "justify-content:flex-end;" +
+        "margin-top:80px;" +
+      "}" +
+    "}";
   document.head.appendChild(style);
 
   var section = document.createElement("section");
