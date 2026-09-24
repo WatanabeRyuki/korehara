@@ -250,7 +250,7 @@
         "margin-top:80px;" +
       "}" +
     "}";
-  document.head.appendChild(style);
+      document.head.appendChild(style);
 
   var section = document.createElement("section");
   section.className = "section3";
